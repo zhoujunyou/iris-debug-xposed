@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">IrisSqlXposed</string>
+    <string name="pkg_all">全部</string>
+    <string name="pkg_core">核心</string>
+    <string name="pkg_sys">系统</string>
+    <string name="pkg_user">用户</string>
+
+    <string name="preferences">首选项</string>
+    <string name="use_wizard">软件使用说明方法:
+                1:点击item设置脱壳包，只能设置一个，设置完毕后需要重启需脱壳应用。
+
+                2:选择checkbox 启动应用sqlite调式，可以多选，需要在应用启动后选择
+                    没有做界面状态同步 若无效,可尝试重新开关checkbox。
+
+                3:目前版本不支持系统应用调式。可自行修改源码.
+</string>
+
+</resources>
