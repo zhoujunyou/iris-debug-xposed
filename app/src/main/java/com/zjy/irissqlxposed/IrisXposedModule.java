@@ -22,7 +22,7 @@ public class IrisXposedModule implements IXposedHookLoadPackage {
         }
         if (lpparam.isFirstApplication && !"com.zjy.irissqlxposed".equals(lpparam.packageName)) {
             XposedBridge.log("com.zjy.irissqlxposed load"+lpparam.packageName);
-//            ApplicationHookContext.getInstance().initModuleContext(lpparam);
+            ApplicationHookContext.getInstance().initModuleContext(lpparam);
             FindDexModule.getInstance().init(lpparam);
 
         }
